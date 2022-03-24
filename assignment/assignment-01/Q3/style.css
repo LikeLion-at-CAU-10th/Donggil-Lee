@@ -1,0 +1,110 @@
+#model_s, #model_x{
+    font-size: 30px;
+    transition : transform 1s;
+    margin-left: 30px;
+    text-align: center;
+}
+#model_s:hover, #model_x:hover{
+    transform:scale(1.2);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+img{
+    border-radius: 25px;
+}
+section{
+    display:flex;
+}
+header{
+    font-size: 90px; 
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+#information{
+    margin-left: 30px;
+}
+#main-info{
+    font-size:30px;
+    margin : 20px 20px 0 0;
+    text-align:center;
+}
+#details{
+    font-size:10px;
+    text-align:center;
+}
+#infomation-box{
+    display:flex;
+}
+button{
+    font-size:30px;
+    background-color: black;
+    color: white;
+    border-style:double;
+    border-radius: 25px;
+    padding : 20px;    
+    width: 350px;
+
+}
+button:hover{
+    background-color:white;
+    color: black;
+}
+table{
+    font-size: 20px;
+}
+#color{
+    display:flex;
+}
+#white{
+    margin: 0 2px 0 2px;
+    width :15px;
+    height: 15px;
+    background-color: white;
+    border-style:solid;
+    border-width: 2px;
+}
+#red{
+    margin: 0 2px 0 2px;
+    width :15px;
+    height: 15px;
+    background-color: red;
+    border-style:solid;
+    border-width: 2px;
+}
+#blue{
+    margin: 0 2px 0 2px;
+    width: 15px;
+    height: 15px;
+    background-color: darkblue;
+    border-style:solid;
+    border-width: 2px;
+}
+#silver{
+    margin: 0 2px 0 2px;
+    width :15px;
+    height: 15px;
+    background-color: silver;
+    border-style:solid;
+    border-width: 2px;
+}
+#black{
+    margin: 0 2px 0 2px;
+    width :15px;
+    height: 15px;
+    background-color: black;
+    border-style:solid;
+    border-width: 2px;
+}
+#info{
+    width: 350px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
