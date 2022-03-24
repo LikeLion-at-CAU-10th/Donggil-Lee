@@ -1,0 +1,45 @@
+#all{
+    height: 350px;
+    width: 300px;
+    border-style: solid;   
+    border-radius:25px;
+    text-align: center;
+    align-items: center;
+}
+#top{
+    height:70%;
+    background-color: white;
+    border-radius:25px;
+}
+#bottom{
+    height:30%;
+    background-color:black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius:25px;
+    display:flex;
+}
+#name{
+    display:inline-block;
+    width: 200px;
+    border-style:solid;
+    border-radius: 25px;
+    background-color: indianred;
+    font-size: 25px;
+    font-style:bold;
+    margin-top: 10px;
+    padding: 1px 20px 0 20px;
+    margin-bottom: 0px;
+}
+#info{
+    margin-top: 30px;
+}
+#money{
+    color: white;
+    font-size: 40px;
+    text-align:center;
+    margin: 20px 0px 0px 15px; 
+}
+img{
+    margin-top: 10px;
+    margin-left: 15px;
+}
