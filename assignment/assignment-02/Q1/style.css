@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    margin:200px;
+}
+#entire-section{
+    display:flex;
+    justify-content:space-evenly;
+    width:1600px;
+    height: 1000px;
+}
+.cat{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:29%;
+    background-color:white;
+    border-style:double;
+    border-width:10px;
+    border-radius: 15px;
+}
+.layout-container{
+    flex-basis:69%;
+    display:flex;
+    background-color: black;
+    flex-direction:column;
+
+    justify-content: space-evenly;
+}
+.layout-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 10%;
+}
+.layout-recent{
+    margin-top: 15px;
+    margin-bottom:15px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-basis: 20%;
+}
+.layout-popular{
+    margin-bottom:10px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-basis: 30%;
+}
+.title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    width: 97%;
+    height: 100%;
+    border-radius: 25px;
+    border-style:double;
+    border-width:10px;
+}
+.recent{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    border-style:double;
+    border-width:10px;
+    border-radius:25px;
+    width: 23%;
+}
+.popular{
+    border-radius:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    border-style:double;
+    border-width:10px;
+}
+.popular1{
+    flex-basis: 72.5%;
+}
+.popular2{
+    flex-basis: 23.5%;
+}
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+    border-radius:20px;
+    border-style:double;
+    border-width:10px;
+    flex-basis:9%;
+    margin-top: 10px;
+}
+section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    border-radius: 20px;
+    border-style: double;
+    border-width:10px;
+    flex-basis:29%;
+}
