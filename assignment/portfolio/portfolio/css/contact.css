@@ -1,0 +1,54 @@
+/* contact에 대한 css */
+@keyframes jump{
+    50%{
+        transform:translateY(-10px);
+    }
+}
+#contact{
+    font-family: 'Montserrat', sans-serif;
+    padding: 3vw 4vw 3vw 4vw;
+    border-radius:10px;
+    border-style:solid;
+    border-width: 0.5vw;
+    margin: 1vw;
+    margin-left:10vw;
+}
+.clist{
+    height: 300px;
+    width: 300px;
+}
+.contacttitle{
+    font-size:5vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+.mail{
+    display:flex;
+}
+.kakao{
+    display:flex;
+}
+.mail img{
+    flex-basis:30%;
+}
+.mailtext{
+    display: flex;
+    margin-left: 3vw;
+    align-items: center;
+    flex-basis:70%;
+}
+.kakao img{
+    flex-basis:30%;
+}
+.kakaotext{
+    display: flex;
+    margin-left: 2vw;
+    align-items: center;
+    flex-basis:70%;
+}
+.mail:hover, .kakao:hover{
+    animation-name : jump;
+    animation-duration:0.5s;
+}

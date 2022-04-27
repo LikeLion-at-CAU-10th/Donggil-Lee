@@ -1,0 +1,85 @@
+#aboutme{  
+    display:flex;
+    flex-direction: column;
+    margin: 1vw;
+    padding: 3vw 4vw 3vw 4vw;
+    border-style:solid;
+    border-width: 0.5vw;
+    border-radius: 20px;
+    margin-top: 1vw;
+    margin-left:10vw;
+}
+.aboutme-container{
+    display:flex;
+    flex-basis:60%;
+}
+.abouttitle{
+    flex-basis: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+}
+.profileimg{
+    object-fit: cover;
+    flex-basis:30%;
+    transition:all 1s;
+}
+.profileimg:hover{
+    transform: translate(-120%,45%) scale(3.5);
+    z-index:2;
+}
+.abouttext{
+    font-family: 'Noto Serif KR', serif;
+    font-size:1.5vw;
+    margin-right: 0.5vw;
+    flex-basis:70%;
+}
+.active{
+    justify-content: space-evenly;
+    display:flex;
+}
+.activeimg1,.activeimg2,.activeimg3{
+    object-fit: cover;
+    flex-basis:33%;
+    position:relative;
+}
+.activeimg1 img,.activeimg2 img,.activeimg3 img{
+    transition: all 1s;
+}
+.activeimg1 img:hover,.activeimg2 img:hover,.activeimg3 img:hover{
+    filter:brightness(30%);
+    transform: rotateY(180deg);
+}
+.imgtext1,.imgtext2,.imgtext3{
+    pointer-events: none;
+    z-index:10;
+    display:none;
+    color:white;
+    font-size:3vw;
+    padding: 5px 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+}
+.imgtext1.visible{
+    display:block;
+}
+.imgtext2.visible{
+    display:block;
+}
+.imgtext3.visible{
+    display:block;
+}
+.title{
+    font-size: 2vw;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    width: 150%;
+    font-size:0.7vw;
+    margin-top: 3vw;
+    margin-left:-2vw;
+    justify-content: center;
+    align-items: center;
+}
