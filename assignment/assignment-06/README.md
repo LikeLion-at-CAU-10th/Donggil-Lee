@@ -9,27 +9,35 @@ source myvenv/Scripts/activate
 
 위의 명령어를 통해 myvenv라는 가상환경을 만들어주고, 활성화 시켜주었다.
 
-![Untitled](https://user-images.githubusercontent.com/99241871/169217852-21d51617-c9a5-4199-b2bf-5b2b83cd2d6e.png) ![Untitled (1)](https://user-images.githubusercontent.com/99241871/169217862-60e6fdbe-53fd-4cba-a0c2-d7cd7eecee76.png)
+![Untitled](https://user-images.githubusercontent.com/99241871/169217852-21d51617-c9a5-4199-b2bf-5b2b83cd2d6e.png) 
+
 
 활성화 된 모습
 
 
-
+![Untitled (1)](https://user-images.githubusercontent.com/99241871/169217862-60e6fdbe-53fd-4cba-a0c2-d7cd7eecee76.png)
 
 
 위와 같이 assginment라는 장고 프로젝트를 만들어 주었다.
 
+
 ![Untitled(2)](https://user-images.githubusercontent.com/99241871/169217877-ace557a4-7be2-47ea-92f5-1038caa3aab9.png)
+
 
 ![Untitled(3)](https://user-images.githubusercontent.com/99241871/169217891-20067a62-0765-4a4e-943f-1b3bd4c050d4.png)
 
+
 이후 footprint라는 앱을 만들어 주고, INSTALLED_APPS에 등록해주었다.
+
 
 ![Untitled(4)](https://user-images.githubusercontent.com/99241871/169217903-675c63cc-1210-4bb9-bb27-56845659fd88.png)
 
+
 URL이 127.0.0.1/footprint가 요청될 경우, footprint앱의 urls.py로 넘겨주기 위한 설정이다.
 
+
 ![Untitled (5)](https://user-images.githubusercontent.com/99241871/169217911-7b0b8fe5-dab4-4468-8bc4-be0960769a00.png)
+
 
 위는 footprint/urls.py이다. “”가 요청되면 /footprint/views.py에 있는 footprint_GET함수를 불러온다는 설정이고, “send”가 요청되면 /footprint/views.py에 있는 footprint_POST함수가 불러와진다는 설정이다.
 
