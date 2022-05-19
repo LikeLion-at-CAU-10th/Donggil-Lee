@@ -9,29 +9,29 @@ source myvenv/Scripts/activate
 
 위의 명령어를 통해 myvenv라는 가상환경을 만들어주고, 활성화 시켜주었다.
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7b0a44e8-f837-416f-b714-0e127ea4aa16/Untitled.png)
 
 활성화 된 모습
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%201.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9e3f027-6d97-4e76-86f2-da09ad7a45f6/Untitled.png)
 
 위와 같이 assginment라는 장고 프로젝트를 만들어 주었다.
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%202.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ee92254-eaeb-4624-9549-46fade2d2832/Untitled.png)
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%203.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8cafcde8-6357-488e-900c-acae8913fc47/Untitled.png)
 
 이후 footprint라는 앱을 만들어 주고, INSTALLED_APPS에 등록해주었다.
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%204.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9777b5ce-03be-49fc-bfdb-c11282628a62/Untitled.png)
 
 URL이 127.0.0.1/footprint가 요청될 경우, footprint앱의 urls.py로 넘겨주기 위한 설정이다.
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%205.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3658c93c-c9dd-48d5-a45e-45b72eebada8/Untitled.png)
 
 위는 footprint/urls.py이다. “”가 요청되면 /footprint/views.py에 있는 footprint_GET함수를 불러온다는 설정이고, “send”가 요청되면 /footprint/views.py에 있는 footprint_POST함수가 불러와진다는 설정이다.
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%206.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d25fe89-ffec-47e7-b788-15d78ff3e1fa/Untitled.png)
 
 위는 footprint앱의 데이터베이스 설정이다.
 
@@ -50,11 +50,11 @@ python manage.py migrate
 
 위 명령어를 통해 DB를 만들고, 업데이트 시켜준다.
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%207.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcb27198-b2e8-4e91-9d84-c184123ac0cb/Untitled.png)
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%208.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ad411f4-244e-4f83-a944-071aeb910582/Untitled.png)
 
-![Untitled](6%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%201facdae4395d4d86842f08108d53212b/Untitled%209.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e331e881-fa5f-41a8-9068-d03d2b57fa6b/Untitled.png)
 
 views.py에서 실제로 실행될 함수를 선언해준다.
 
