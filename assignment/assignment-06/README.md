@@ -9,11 +9,12 @@ source myvenv/Scripts/activate
 
 위의 명령어를 통해 myvenv라는 가상환경을 만들어주고, 활성화 시켜주었다.
 
-![Untitled](https://user-images.githubusercontent.com/99241871/169217852-21d51617-c9a5-4199-b2bf-5b2b83cd2d6e.png)
+![Untitled](https://user-images.githubusercontent.com/99241871/169217852-21d51617-c9a5-4199-b2bf-5b2b83cd2d6e.png) ![Untitled (1)](https://user-images.githubusercontent.com/99241871/169217862-60e6fdbe-53fd-4cba-a0c2-d7cd7eecee76.png)
 
 활성화 된 모습
 
-![Untitled (1)](https://user-images.githubusercontent.com/99241871/169217862-60e6fdbe-53fd-4cba-a0c2-d7cd7eecee76.png)
+
+
 
 
 위와 같이 assginment라는 장고 프로젝트를 만들어 주었다.
