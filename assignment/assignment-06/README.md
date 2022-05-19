@@ -9,29 +9,29 @@ source myvenv/Scripts/activate
 
 위의 명령어를 통해 myvenv라는 가상환경을 만들어주고, 활성화 시켜주었다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7b0a44e8-f837-416f-b714-0e127ea4aa16/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/99241871/169217852-21d51617-c9a5-4199-b2bf-5b2b83cd2d6e.png)
 
 활성화 된 모습
+![Untitled (1)](https://user-images.githubusercontent.com/99241871/169217862-60e6fdbe-53fd-4cba-a0c2-d7cd7eecee76.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9e3f027-6d97-4e76-86f2-da09ad7a45f6/Untitled.png)
 
 위와 같이 assginment라는 장고 프로젝트를 만들어 주었다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ee92254-eaeb-4624-9549-46fade2d2832/Untitled.png)
+![Untitled(2)](https://user-images.githubusercontent.com/99241871/169217877-ace557a4-7be2-47ea-92f5-1038caa3aab9.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8cafcde8-6357-488e-900c-acae8913fc47/Untitled.png)
+![Untitled(3)](https://user-images.githubusercontent.com/99241871/169217891-20067a62-0765-4a4e-943f-1b3bd4c050d4.png)
 
 이후 footprint라는 앱을 만들어 주고, INSTALLED_APPS에 등록해주었다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9777b5ce-03be-49fc-bfdb-c11282628a62/Untitled.png)
+![Untitled(4)](https://user-images.githubusercontent.com/99241871/169217903-675c63cc-1210-4bb9-bb27-56845659fd88.png)
 
 URL이 127.0.0.1/footprint가 요청될 경우, footprint앱의 urls.py로 넘겨주기 위한 설정이다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3658c93c-c9dd-48d5-a45e-45b72eebada8/Untitled.png)
+![Untitled (5)](https://user-images.githubusercontent.com/99241871/169217911-7b0b8fe5-dab4-4468-8bc4-be0960769a00.png)
 
 위는 footprint/urls.py이다. “”가 요청되면 /footprint/views.py에 있는 footprint_GET함수를 불러온다는 설정이고, “send”가 요청되면 /footprint/views.py에 있는 footprint_POST함수가 불러와진다는 설정이다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d25fe89-ffec-47e7-b788-15d78ff3e1fa/Untitled.png)
+![Untitled (6)](https://user-images.githubusercontent.com/99241871/169217928-f35bd91c-c699-4e03-a91c-a812cbe5917e.png)
 
 위는 footprint앱의 데이터베이스 설정이다.
 
@@ -49,12 +49,10 @@ python manage.py migrate
 ```
 
 위 명령어를 통해 DB를 만들고, 업데이트 시켜준다.
+![Untitled (7)](https://user-images.githubusercontent.com/99241871/169217958-42cf24f2-375a-4d74-97b4-e09e9daeb572.png)
+![Untitled (8)](https://user-images.githubusercontent.com/99241871/169217965-a6a1f058-baec-444a-a1a0-7251c5cddb57.png)
+![Untitled (9)](https://user-images.githubusercontent.com/99241871/169217981-e94a5ce5-e8ed-43f6-9fcb-7a9411c2123f.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcb27198-b2e8-4e91-9d84-c184123ac0cb/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ad411f4-244e-4f83-a944-071aeb910582/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e331e881-fa5f-41a8-9068-d03d2b57fa6b/Untitled.png)
 
 views.py에서 실제로 실행될 함수를 선언해준다.
 
