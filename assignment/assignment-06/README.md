@@ -85,3 +85,6 @@ order_by는 sql문과 동일하게 정렬해주는 함수다. 이후 컬럼명 �
 이후에는 footprints를 messages라는 리스트에 넣어서 반환해준다.
 
 반환형태가 Json이기 때문에 위와 같이 반환형태를 작성해준다.
+
+![제목 없음](https://user-images.githubusercontent.com/99241871/169728822-b551db24-4a23-4cee-8b8f-a92dcb11a8e8.png)
+
