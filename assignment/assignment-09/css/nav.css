@@ -1,0 +1,64 @@
+/* 상단 바에 대한 정보 */
+.header{
+    z-index:10000000;
+    position:sticky;
+    top:0;
+    height: 3vw;
+    border-bottom: solid;
+    border-color:black;
+    padding-bottom: 1vw;
+    background-color: white;
+}
+.menu{
+    background-color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.cat-home,.cat-aboutme,.cat-studying, .cat-contact{
+    transition:all 0.5s;
+    font-size: 1vw;
+    margin: 1vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.cat-home:hover, .cat-aboutme:hover,.cat-studying:hover,.cat-contact:hover{
+    color: coral;
+    transform: scale(1.5);
+}
+/* 다크모드 버튼 */
+.label{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 4vw;
+    height: 2vw;
+    background-color : #111;
+    border-radius: 50px;
+}
+.ball{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    transition: transform 0.2s ease-out;  /*slow out*/
+    right:2.3vw;
+    border-style:solid;
+    border-width: 1px;
+}
+.checkbox:checked + .label .ball{
+    transform: translateX(2.5vw);
+}
+.checkbox{
+    position:absolute;
+    opacity:0;
+}
+.fa-moon{
+    color: #f1c40f;
+    transform:scale(0.8);
+}
+.fa-sun{
+    color: #f39c12;
+    transform:scale(1.1);
+}

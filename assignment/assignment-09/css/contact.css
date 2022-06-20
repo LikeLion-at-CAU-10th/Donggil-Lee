@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* contact에 대한 css */
+@keyframes jump {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mail img {
+    width: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+  .mail img {
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .mail img {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .kakao img {
+    width: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+  .kakao img {
+    width: 100px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .kakao img {
+    width: 200px;
+  }
+}
+
+#contact {
+  font-family: "Montserrat", sans-serif;
+  padding: 3vw 4vw 3vw 4vw;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.5vw;
+  margin: 1vw;
+  margin-left: 10vw;
+}
+
+.clist {
+  height: 300px;
+  width: 300px;
+}
+
+.contacttitle {
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4vw;
+}
+
+.mail {
+  display: flex;
+}
+
+.kakao {
+  display: flex;
+}
+
+.mailtext {
+  display: flex;
+  margin-left: 3vw;
+  align-items: center;
+  flex-basis: 70%;
+}
+
+.kakaotext {
+  display: flex;
+  margin-left: 2vw;
+  align-items: center;
+  flex-basis: 70%;
+}
+
+.mail:hover{
+  animation-name: jump;
+  animation-duration: 0.5s;
+}
+.kakao:hover{
+  animation-name: jump;
+  animation-duration: 0.5s;
+}
+
+/*# sourceMappingURL=contact.css.map */

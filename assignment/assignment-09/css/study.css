@@ -1,0 +1,46 @@
+/* STUDYING 섹션 스타일 */
+#study{
+    padding: 3vw 4vw 3vw 4vw;
+    border-radius:10px;
+    border-style:solid;
+    border-width: 0.5vw;
+    margin: 1vw;
+    margin-left:10vw;
+}
+.studytitle{
+    font-size:8vw;
+    text-align: center;
+}
+.studying{
+    display:flex;
+    position:relative;
+    justify-content: center;
+}
+.slist-1, .slist-2{
+    flex-basis:40%;
+}
+.sobject{
+    display:flex;
+    margin-top: 1vw;
+    margin-bottom:1vw;
+    justify-content: space-evenly;
+}
+.stuimg{
+    flex-basis:30%;
+    background-color:white;
+    border-radius:20px;
+    padding: 5px;
+    transition:all 1s;
+}
+.sobject:hover{
+    color:coral;
+}
+.stuimg:hover{
+    transform:rotate(360deg);
+}
+.stutext{
+    margin-left:2vw;
+    flex-basis:70%;
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,37 @@
+/* 왼쪽 사이드바 */
+.sidebar{
+    position:fixed;
+    overflow:hidden;
+    top:75vh;
+    margin-right: 7vw;
+}
+.maintext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vw;
+}
+.website{
+    display:flex;
+    width: 10%;
+}
+.icon{
+    flex-basis: 33%;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    transition:all 0.5s;
+    background-color: white;
+    border-radius:10px;
+    padding:0.1vw;
+}
+.icon:hover{
+    transform: scale(2);
+    margin: 1vw;
+}
+.main{
+    flex-basis: 10%;
+    border-radius: 10px;
+    font-family: 'Square Peg', cursive;
+    font-size: 3vw;
+    margin-left:3vw;
+    margin-bottom: 3vw;
+}
