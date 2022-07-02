@@ -1,0 +1,17 @@
+.inner{
+  background-color: gray;
+  position: absolute;
+  bottom: 1px;
+  color:white;
+  padding:30px;
+  opacity:80%;
+}
+.box{
+  position:relative;
+}
+.App{
+  margin-top: 40vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
