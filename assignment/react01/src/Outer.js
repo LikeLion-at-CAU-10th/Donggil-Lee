@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./outer.module.css";
+import styles from "./css/outer.module.css";
 const Outer = ({ img }) => {
   console.log(img);
   return (

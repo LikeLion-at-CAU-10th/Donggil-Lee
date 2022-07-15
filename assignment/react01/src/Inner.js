@@ -1,5 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
+import styles from "./css/Inner.module.css";
 const Inner = ({ data }) => {
+  const [like, setlike] = useState(false);
+  const [color, setcolor] = useState("white");
+  useEffect(() => (like ? setcolor("pink") : setcolor("white")), [like]);
   const d = {
     img: ["./img/one.png", "./img/two.png", "./img/three.png"],
     text: [
@@ -15,7 +20,31 @@ const Inner = ({ data }) => {
       break;
     }
   }
-  return <div>{d.text[index]} ❤️</div>;
+  return (
+    <div className={styles.container}>
+      <div>{d.text[index]} ❤️</div>
+      <div className={styles.fake}>
+        <button
+          className={styles.like}
+          onClick={() => {
+            like ? setlike(false) : setlike(true);
+          }}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "50px",
+            height: "50px",
+            backgroundColor: `${color}`,
+            color: "black",
+            borderStyle: "none",
+          }}
+        >
+          ❤️like
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default Inner;

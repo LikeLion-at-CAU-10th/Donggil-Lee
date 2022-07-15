@@ -1,20 +1,30 @@
 @charset "UTF-8";
 /* contact에 대한 css */
-@keyframes jump {
+@-webkit-keyframes jump {
   50% {
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
   }
 }
+@keyframes jump {
+  50% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .mail img {
     width: 40px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1100px) {
   .mail img {
     width: 100px;
   }
 }
+
 @media only screen and (min-width: 1100px) {
   .mail img {
     width: 150px;
@@ -26,19 +36,21 @@
     width: 40px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1100px) {
   .kakao img {
     width: 100px;
   }
 }
+
 @media only screen and (min-width: 1100px) {
   .kakao img {
-    width: 200px;
+    width: 150px;
   }
 }
 
 #contact {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 3vw 4vw 3vw 4vw;
   border-radius: 10px;
   border-style: solid;
@@ -54,41 +66,58 @@
 
 .contacttitle {
   font-size: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 4vw;
 }
 
 .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .kakao {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .mailtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 3vw;
-  align-items: center;
-  flex-basis: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
 }
 
 .kakaotext {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 2vw;
-  align-items: center;
-  flex-basis: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
 }
 
-.mail:hover{
-  animation-name: jump;
-  animation-duration: 0.5s;
+.mail:hover, .kakao:hover {
+  -webkit-animation-name: jump;
+          animation-name: jump;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
 }
-.kakao:hover{
-  animation-name: jump;
-  animation-duration: 0.5s;
-}
-
 /*# sourceMappingURL=contact.css.map */

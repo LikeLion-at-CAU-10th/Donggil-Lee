@@ -1,0 +1,12 @@
+.like{
+
+}
+.fake{
+    display: flex;
+    justify-content: right;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}

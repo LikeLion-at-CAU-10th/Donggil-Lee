@@ -1,6 +1,6 @@
 import Inner from "./Inner";
 import Outer from "./Outer";
-import styles from "./App.module.css";
+import styles from "./css/App.module.css";
 function App() {
   const data = {
     img: ["./img/one.png", "./img/two.png", "./img/three.png"],
