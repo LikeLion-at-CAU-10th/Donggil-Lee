@@ -1,0 +1,16 @@
+.product{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+.product img{
+    width: 200px;
+    height: 200px;
+}
+.products{
+    display:flex;
+    justify-content: space-evenly;
+}
